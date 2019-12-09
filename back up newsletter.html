@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{subject}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<style type="text/css">/* CLIENT-SPECIFIC STYLES */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+body{margin:0; padding:0; height:100% !important; margin:0; padding:0; width:100% !important;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none; max-width: 100%!important}
+table{border-collapse:collapse !important;}
+
+
+/* MOBILE STYLES */
+@media screen and (max-width: 525px) {
+
+    /* ALLOWS FOR FLUID TABLES */
+    table[class="wrapper"]{
+        width:100% !important;
+    }
+
+    /* ADJUSTS LAYOUT OF LOGO IMAGE */
+    td[class="logo"]{
+        text-align: left;
+        padding: 20px 0 20px 0 !important;
+    }
+
+    td[class="logo"] img{
+        margin:0 auto!important;
+    }
+
+    /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+    td[class="mobile-hide"]{
+        display:none;}
+
+    img[class="mobile-hide"]{
+        display: none !important;
+    }
+
+    img[class="img-max"]{
+        max-width: 100% !important;
+        /*width: 100% !important;*/
+        height:auto !important;
+    }
+
+    /* FULL-WIDTH TABLES */
+    table[class="responsive-table"]{
+        width:100%!important;
+    }
+
+    /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+    td[class="padding"]{
+        padding: 10px 5% 15px 5% !important;
+    }
+
+    td[class="padding-copy"]{
+        padding: 10px 5% 10px 5% !important;
+        text-align: center;
+    }
+
+    td[class="padding-meta"]{
+        padding: 30px 5% 0px 5% !important;
+        text-align: center;
+    }
+
+    td[class="no-pad"]{
+        padding: 0 0 20px 0 !important;
+    }
+
+    td[class="no-padding"]{
+        padding: 0 !important;
+    }
+
+    td[class="section-padding"]{
+        padding: 50px 15px 50px 15px !important;
+    }
+
+    td[class="section-padding-bottom-image"]{
+        padding: 50px 15px 0 15px !important;
+    }
+
+    /* ADJUST BUTTONS ON MOBILE */
+    td[class="mobile-wrapper"]{
+        padding: 10px 5% 15px 5% !important;
+    }
+
+    table[class="mobile-button-container"]{
+        margin:0 auto;
+        width:100% !important;
+    }
+
+    a[class="mobile-button"]{
+        width:80% !important;
+        padding: 15px !important;
+        border: 0 !important;
+        font-size: 16px !important;
+    }
+
+}
+
+/* Header */
+.header-logo {
+    text-align: center!important;
+}
+@media all and (max-width: 640) {
+    .header-table td {
+        width: 100%!important;
+    }
+    .header-logo {
+        text-align: center!important;
+    }
+}
+
+
+/* Last posts */
+@media all and (max-width: 525px) {
+    .hero-table {
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+    .hero-table-right {
+        margin-top: 20px;
+    }
+}
+
+/* Html */
+.html-td p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* Text */</style></head>
+<body style="margin: 0; padding: 0;">
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block cz-color-4473924 cz-color-8421504 ui-sortable-handle" data-id="preheader"><tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504"><td data-options="options[text]=%C2%BFNo%20puedes%20visualizar%20correctamente%20el%20correo%3F&options[view]=Pulsa%20Aqu%C3%AD&options[font_family]=Helvetica%2C%20Arial%2C%20sans-serif&options[font_size]=11&options[font_weight]=Normal&options[font_color]=%23ffffff&options[block_background]=%23e7442e&" align="center" style="padding: 0; font-family: Helvetica, Arial, sans-serif;" class="edit-block cz-color-4473924"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important" class="cz-color-4473924 cz-color-8421504">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td align="center" style="text-align: center; padding-top: 15px; padding-left: 0px; padding-right: 0px; padding-bottom: 15px; background-color: #e7442e;" bgcolor="#e7442e" width="100%" class="cz-color-4473924 cz-color-3032295">
+<table width="100%" border="0" cellpadding="0" align="center" cellspacing="0" style="width: 100%!important border: 0; border-collapse: collapse;" class="cz-color-4473924 cz-color-8421504">
+    <tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+        <td class="preheader-link cz-color-16777215" style="padding: 10px; text-align: center; font-size: 11px; font-family: Helvetica, Arial, sans-serif; font-weight: Normal; color: #ffffff;" width="50%" valign="top" align="center">
+            ¿No puedes visualizar correctamente el correo?        </td>
+        <td class="preheader-link cz-color-16777215" style="padding: 10px; text-align: center; font-size: 11px; font-family: Helvetica, Arial, sans-serif; font-weight: Normal; color: #ffffff;" width="50%" valign="top" align="center">
+            <a href="{email_url}" target="_blank" rel="noopener" class="preheader-view-link cz-color-16777215" style="font-size: 11px; font-family: Helvetica, Arial, sans-serif; font-weight: Normal; color: #ffffff; text-decoration: none;">Pulsa Aquí</a>
+        </td>
+    </tr>
+</tbody></table></td>
+</tr>
+</tbody></table><!--[if mso]></td></tr></table><![endif]--></td></tr></tbody></table>
+
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row cz-color-4473924 cz-color-8421504 ui-sortable-handle" data-id="content-05-imageblock">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td align="center" style="padding: 0;" class="cz-color-4473924">
+<!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important" class="cz-color-4473924 cz-color-8421504">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td class="edit-block cz-color-4473924 cz-color-16777215" align="center" style="text-align: center; padding-top: 15px; padding-left: 0px; padding-right: 0px; padding-bottom: 15px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%" class="cz-color-4473924 cz-color-8421504">
+    <tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+        <td bgcolor="#ffffff" align="center" style="padding: 0;" class="cz-color-4473924 cz-color-16777215">
+            
+            <div class="tnpc-row-edit cz-color-4473924" data-type="image">
+                <a href="#" target="_blank" class="cz-color-11170560">
+                    <img src="https://rpj.es/wp-content/uploads/logos/logo-cabecera-rpj.png" border="0" alt="Insert alt text here" style="max-width: 100%!important; height: auto!important;display: block;" class="img-max cz-color-11170560" width="">
+                </a>
+            </div>
+            
+        </td>
+    </tr>
+</tbody></table></td>
+</tr>
+</tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td>
+</tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="text">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjE1LCJibG9ja19wYWRkaW5nX2xlZnQiOjE1LCJibG9ja19iYWNrZ3JvdW5kIjoiI2U3NDQyZSIsImh0bWwiOiJcdTAwM0NwIHN0eWxlPVwidGV4dC1hbGlnbjogY2VudGVyO1wiXHUwMDNFXHUwMDNDc3BhbiBzdHlsZT1cImZvbnQtZmFtaWx5OiBhcmlhbCwgaGVsdmV0aWNhLCBzYW5zLXNlcmlmOyBjb2xvcjogI2ZmZmZmZjtcIlx1MDAzRVx1MDBhMUhvbGEhIEVuIGVsIGRcdTAwZWRhIGRlIGhveSB0ZSBxdWVyZW1vcyBlbnZpYXIgYWxndW5vcyBhcnRcdTAwZWRjdWxvcyBxdWUgdGUgaGVtb3Mgc2VsZWNjaW9uYWRvIHBhcmEgdGkuXHUwMDNDXC9zcGFuXHUwMDNFXHUwMDNDXC9wXHUwMDNFXHJcblx1MDAzQ3Agc3R5bGU9XCJ0ZXh0LWFsaWduOiBjZW50ZXI7XCJcdTAwM0VcdTAwM0NzcGFuIHN0eWxlPVwiZm9udC1mYW1pbHk6IGFyaWFsLCBoZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGNvbG9yOiAjZmZmZmZmO1wiXHUwMDNFXHUwMGExXHUwMGMxbmltYXRlIGEgbGVlcmxvcyB5IGdyYWNpYXMgcG9yIGZvcm1hciBwYXJ0ZSBkZSBsYSBmYW1pbGlhIFJQSiFcdTAwM0NcL3NwYW5cdTAwM0VcdTAwM0NcL3BcdTAwM0UiLCJmb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJmb250X3NpemUiOjE2LCJmb250X2NvbG9yIjoiIzAwMDAwMCIsImJsb2NrX2lkIjoidGV4dCJ9" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 15px; padding-right: 15px; padding-bottom: 0px; background-color: #e7442e;" bgcolor="#e7442e" width="100%">
+<table width="100%" style="width: 100%!important" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+        <td width="100%" valign="top" align="left" class="text-td" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #000000; line-height: 1.5rem;">
+            <p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; color: #ffffff;">¡Hola! En el día de hoy te queremos enviar algunos artículos que te hemos seleccionado para ti.</span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; color: #ffffff;">¡Ánimate a leerlos y gracias por formar parte de la familia RPJ!</span></p>        </td>
+    </tr>
+</tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjEwMDE3IiwidXJsIjoiaHR0cHM6XC9cL3Jwai5lc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAxOVwvMDlcL3RvcC00LW5ld3NsZXR0ZXIuanBnIn0sInVybCI6IiIsInBsYWNlaG9sZGVyIjoiIiwiaW1hZ2VfYWx0IjoiVE9QIDQgQVJUXHUwMGNkQ1VMT1MiLCJibG9ja19pZCI6ImltYWdlIn0=" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/09/top-4-newsletter-600x0.jpg" border="0" alt="TOP 4 ARTÍCULOS" style="max-width: 100%!important; height: auto!important; display: inline-block;">
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="posts">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiMyZDM0OGMiLCJ0aXRsZSI6Ikxhc3QgbmV3cyIsImNvbG9yIjoiIzk5OTk5OSIsImZvbnRfZmFtaWx5IjoiSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiIsImZvbnRfc2l6ZSI6IjE2IiwiZm9udF9jb2xvciI6IiNmZmZmZmYiLCJ0aXRsZV9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJ0aXRsZV9mb250X3NpemUiOiIyNSIsInRpdGxlX2ZvbnRfY29sb3IiOiIjZmZmZmZmIiwibWF4IjoiNCIsImJ1dHRvbl9sYWJlbCI6IlNlZ3VpciBsZXllbmRvLi4uIiwiY2F0ZWdvcmllcyI6IiIsInRhZ3MiOiIiLCJsYXlvdXQiOiJ0d28iLCJsYW5ndWFnZSI6IiIsImJ1dHRvbl9iYWNrZ3JvdW5kIjoiIzAwMDAwMCIsImJ1dHRvbl9mb250X2NvbG9yIjoiI2ZmZmZmZiIsImJ1dHRvbl9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJidXR0b25fZm9udF9zaXplIjoiMTYiLCJ0aXRsZV9mb250X3dlaWdodCI6Im5vcm1hbCIsImZvbnRfd2VpZ2h0Ijoibm9ybWFsIiwic2hvd19pbWFnZSI6IjEiLCJzaG93X2RhdGUiOiIxIiwiYmxvY2tfaWQiOiJwb3N0cyJ9" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #2d348c;" bgcolor="#2d348c" width="100%">
+<!-- TWO COLUMN SECTION -->
+
+
+    <!-- TWO COLUMNS -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                
+            <tbody><tr>
+                <td valign="top" style="padding: 10px;" class="mobile-wrapper">
+
+                    <!-- LEFT COLUMN -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                        <tbody><tr>
+                            <td style="padding: 20px 0 40px 0;">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                            <tbody><tr>
+                                            <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                <a href="https://rpj.es/proyectar-en-el-espiritu-equipo-dialogos-pastoral-con-jovenes/" target="_blank">
+                                                    <img src="https://rpj.es/wp-content/uploads/2019/11/descarga.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Proyectar en el espíritu - Equipo Diálogos pastoral con jóvenes</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                            8 diciembre, 2019                                        </td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/proyectar-en-el-espiritu-equipo-dialogos-pastoral-con-jovenes/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                                            <!-- RIGHT COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                            <tbody><tr>
+                                <td style="padding: 20px 0 40px 0;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                    <tbody><tr>
+                                                <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                    <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank">
+                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                                7 diciembre, 2019                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                        </tr>
+                                        <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                </td>
+            </tr>
+
+                
+            <tr>
+                <td valign="top" style="padding: 10px;" class="mobile-wrapper">
+
+                    <!-- LEFT COLUMN -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                        <tbody><tr>
+                            <td style="padding: 20px 0 40px 0;">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                            <tbody><tr>
+                                            <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                <a href="https://rpj.es/2-semana-adviento/" target="_blank">
+                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/12/2-240x160-c.png" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">2ª Semana de Adviento</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                            6 diciembre, 2019                                        </td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text">Comentario del evangelio + material para trabajar el grupos y de forma personal.</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/2-semana-adviento/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                                            <!-- RIGHT COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                            <tbody><tr>
+                                <td style="padding: 20px 0 40px 0;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                    <tbody><tr>
+                                                <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                    <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank">
+                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-6-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Maestros - Juan Ignacio Villar (Vily)</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                                6 diciembre, 2019                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                        </tr>
+                                        <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                </td>
+            </tr>
+
+        
+    </tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%; display: table;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjUyNDIiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDE4XC8xMlwvSW1hZ2luYS5wbmcifSwidXJsIjoiaHR0cHM6XC9cL3Jwai5lc1wvaW1hZ2luYVwvIiwicGxhY2Vob2xkZXIiOiIiLCJpbWFnZV9hbHQiOiIiLCJibG9ja19pZCI6ImltYWdlIn0=" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://rpj.es/imagina/" target="_blank"><img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2018/12/Imagina-600x0.png" border="0" alt="" style="max-width: 100%!important; height: auto!important; display: inline-block;"></a>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="posts">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MTUsImJsb2NrX3BhZGRpbmdfYm90dG9tIjoxNSwiYmxvY2tfcGFkZGluZ19yaWdodCI6MTUsImJsb2NrX3BhZGRpbmdfbGVmdCI6MTUsImJsb2NrX2JhY2tncm91bmQiOiIjZTY0NDJlIiwidGl0bGUiOiJMYXN0IG5ld3MiLCJjb2xvciI6IiM5OTk5OTkiLCJmb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJmb250X3NpemUiOiIxNiIsImZvbnRfY29sb3IiOiIjMDAwMDAwIiwidGl0bGVfZm9udF9mYW1pbHkiOiJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiwidGl0bGVfZm9udF9zaXplIjoiMjUiLCJ0aXRsZV9mb250X2NvbG9yIjoiI2ZmZmZmZiIsIm1heCI6IjIiLCJidXR0b25fbGFiZWwiOiJTZWd1aXIgbGV5ZW5kby4uLiIsImNhdGVnb3JpZXMiOlsiMTQiLCIxMyIsIjExIiwiMzAiLCIxMTUiLCI3MSIsIjYzIl0sInRhZ3MiOiIiLCJsYXlvdXQiOiJ0d28iLCJsYW5ndWFnZSI6IiIsImJ1dHRvbl9iYWNrZ3JvdW5kIjoiIzAwMDAwMCIsImJ1dHRvbl9mb250X2NvbG9yIjoiI2ZmZmZmZiIsImJ1dHRvbl9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJidXR0b25fZm9udF9zaXplIjoiMTYiLCJ0aXRsZV9mb250X3dlaWdodCI6Im5vcm1hbCIsImZvbnRfd2VpZ2h0Ijoibm9ybWFsIiwic2hvd19pbWFnZSI6IjEiLCJzaG93X2RhdGUiOiIxIiwiYmxvY2tfaWQiOiJwb3N0cyJ9" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; background-color: #e6442e;" bgcolor="#e6442e" width="100%">
+<!-- TWO COLUMN SECTION -->
+
+
+    <!-- TWO COLUMNS -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                
+            <tbody><tr>
+                <td valign="top" style="padding: 10px;" class="mobile-wrapper">
+
+                    <!-- LEFT COLUMN -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                        <tbody><tr>
+                            <td style="padding: 20px 0 40px 0;">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                            <tbody><tr>
+                                            <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank">
+                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                            7 diciembre, 2019                                        </td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                                            <!-- RIGHT COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                            <tbody><tr>
+                                <td style="padding: 20px 0 40px 0;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                    <tbody><tr>
+                                                <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                    <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank">
+                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/2JPG-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">He venido para que tengan vida - Javier Carabano</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                                5 diciembre, 2019                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                        </tr>
+                                        <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                </td>
+            </tr>
+
+        
+    </tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjUyNDYiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDE4XC8xMlwvc2llbnRlMi5wbmcifSwidXJsIjoiaHR0cHM6XC9cL3Jwai5lc1wvc2llbnRlLTJcLyIsInBsYWNlaG9sZGVyIjoiIiwiaW1hZ2VfYWx0IjoiIiwiYmxvY2tfaWQiOiJpbWFnZSJ9" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://rpj.es/siente-2/" target="_blank"><img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2018/12/siente2-600x0.png" border="0" alt="" style="max-width: 100%!important; height: auto!important; display: inline-block;"></a>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="posts">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MTUsImJsb2NrX3BhZGRpbmdfYm90dG9tIjoxNSwiYmxvY2tfcGFkZGluZ19yaWdodCI6MTUsImJsb2NrX3BhZGRpbmdfbGVmdCI6MTUsImJsb2NrX2JhY2tncm91bmQiOiIjZTY0NDJlIiwidGl0bGUiOiJMYXN0IG5ld3MiLCJjb2xvciI6IiM5OTk5OTkiLCJmb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJmb250X3NpemUiOiIxNiIsImZvbnRfY29sb3IiOiIjMDAwMDAwIiwidGl0bGVfZm9udF9mYW1pbHkiOiJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiwidGl0bGVfZm9udF9zaXplIjoiMjUiLCJ0aXRsZV9mb250X2NvbG9yIjoiI2ZmZmZmZiIsIm1heCI6IjIiLCJidXR0b25fbGFiZWwiOiJTZWd1aXIgbGV5ZW5kby4uLiIsImNhdGVnb3JpZXMiOlsiMTQiLCIxMyIsIjExIiwiMzAiLCIxMTUiLCI3MSIsIjYzIl0sInRhZ3MiOiIiLCJsYXlvdXQiOiJ0d28iLCJsYW5ndWFnZSI6IiIsImJ1dHRvbl9iYWNrZ3JvdW5kIjoiIzAwMDAwMCIsImJ1dHRvbl9mb250X2NvbG9yIjoiI2ZmZmZmZiIsImJ1dHRvbl9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJidXR0b25fZm9udF9zaXplIjoiMTYiLCJ0aXRsZV9mb250X3dlaWdodCI6Im5vcm1hbCIsImZvbnRfd2VpZ2h0Ijoibm9ybWFsIiwic2hvd19pbWFnZSI6IjEiLCJzaG93X2RhdGUiOiIxIiwiYmxvY2tfaWQiOiJwb3N0cyJ9" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; background-color: #e6442e;" bgcolor="#e6442e" width="100%">
+<!-- TWO COLUMN SECTION -->
+
+
+    <!-- TWO COLUMNS -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                
+            <tbody><tr>
+                <td valign="top" style="padding: 10px;" class="mobile-wrapper">
+
+                    <!-- LEFT COLUMN -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                        <tbody><tr>
+                            <td style="padding: 20px 0 40px 0;">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                            <tbody><tr>
+                                            <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank">
+                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                            7 diciembre, 2019                                        </td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                                            <!-- RIGHT COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                            <tbody><tr>
+                                <td style="padding: 20px 0 40px 0;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                    <tbody><tr>
+                                                <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                    <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank">
+                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/2JPG-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">He venido para que tengan vida - Javier Carabano</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                                5 diciembre, 2019                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                        </tr>
+                                        <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                </td>
+            </tr>
+
+        
+    </tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjUyNTAiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDE4XC8xMlwvQ29tcGFydGUyLnBuZyJ9LCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC9jb21wYXJ0ZVwvIiwicGxhY2Vob2xkZXIiOiIiLCJpbWFnZV9hbHQiOiIiLCJibG9ja19pZCI6ImltYWdlIn0=" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://rpj.es/comparte/" target="_blank"><img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2018/12/Comparte2-600x0.png" border="0" alt="" style="max-width: 100%!important; height: auto!important; display: inline-block;"></a>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="posts">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiMyZTg5YzEiLCJ0aXRsZSI6Ikxhc3QgbmV3cyIsImNvbG9yIjoiIzk5OTk5OSIsImZvbnRfZmFtaWx5IjoiSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiIsImZvbnRfc2l6ZSI6IjE2IiwiZm9udF9jb2xvciI6IiMwMDAwMDAiLCJ0aXRsZV9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJ0aXRsZV9mb250X3NpemUiOiIyNSIsInRpdGxlX2ZvbnRfY29sb3IiOiIjZmZmZmZmIiwibWF4IjoiMiIsImJ1dHRvbl9sYWJlbCI6IlNlZ3VpciBsZXllbmRvLi4uIiwiY2F0ZWdvcmllcyI6WyI4NCIsIjY0IiwiOSIsIjQiLCIxMCIsIjI1Il0sInRhZ3MiOiIiLCJsYXlvdXQiOiJ0d28iLCJsYW5ndWFnZSI6IiIsImJ1dHRvbl9iYWNrZ3JvdW5kIjoiIzAwMDAwMCIsImJ1dHRvbl9mb250X2NvbG9yIjoiI2ZmZmZmZiIsImJ1dHRvbl9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJidXR0b25fZm9udF9zaXplIjoiMTYiLCJ0aXRsZV9mb250X3dlaWdodCI6Im5vcm1hbCIsImZvbnRfd2VpZ2h0Ijoibm9ybWFsIiwic2hvd19pbWFnZSI6IjEiLCJzaG93X2RhdGUiOiIxIiwiYmxvY2tfaWQiOiJwb3N0cyJ9" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #2e89c1;" bgcolor="#2e89c1" width="100%">
+<!-- TWO COLUMN SECTION -->
+
+
+    <!-- TWO COLUMNS -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                
+            <tbody><tr>
+                <td valign="top" style="padding: 10px;" class="mobile-wrapper">
+
+                    <!-- LEFT COLUMN -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                        <tbody><tr>
+                            <td style="padding: 20px 0 40px 0;">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                            <tbody><tr>
+                                            <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                <a href="https://rpj.es/a-que-me-siento-llamado-ignacio-alvarez-garcia/" target="_blank">
+                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/1-2-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">¿A qué me siento llamado? - Ignacio Álvarez García</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                            28 noviembre, 2019                                        </td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/a-que-me-siento-llamado-ignacio-alvarez-garcia/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                                            <!-- RIGHT COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                            <tbody><tr>
+                                <td style="padding: 20px 0 40px 0;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                    <tbody><tr>
+                                                <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                    <a href="https://rpj.es/saber-escuchar-inigo-garcia-blanco/" target="_blank">
+                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-3-240x160-c.png" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Saber escuchar - Iñigo García Blanco</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                                20 noviembre, 2019                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                        </tr>
+                                        <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/saber-escuchar-inigo-garcia-blanco/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                </td>
+            </tr>
+
+        
+    </tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjUyNDUiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDE4XC8xMlwvQWN0XHUwMGZhYS0yLnBuZyJ9LCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC9hY3R1YS0yXC8iLCJwbGFjZWhvbGRlciI6IiIsImltYWdlX2FsdCI6IiIsImJsb2NrX2lkIjoiaW1hZ2UifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://rpj.es/actua-2/" target="_blank"><img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2018/12/Actúa-2-600x0.png" border="0" alt="" style="max-width: 100%!important; height: auto!important; display: inline-block;"></a>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%; display: table;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="posts">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNhM2M2MmMiLCJ0aXRsZSI6Ikxhc3QgbmV3cyIsImNvbG9yIjoiIzk5OTk5OSIsImZvbnRfZmFtaWx5IjoiSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiIsImZvbnRfc2l6ZSI6IjE2IiwiZm9udF9jb2xvciI6IiMwMDAwMDAiLCJ0aXRsZV9mb250X2ZhbWlseSI6IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiLCJ0aXRsZV9mb250X3NpemUiOiIyNSIsInRpdGxlX2ZvbnRfY29sb3IiOiIjZmZmZmZmIiwibWF4IjoiMiIsImJ1dHRvbl9sYWJlbCI6IlNlZ3VpciBsZXllbmRvLi4uIiwiY2F0ZWdvcmllcyI6WyI2NSIsIjgyIiwiNiIsIjEyIiwiOCIsIjciXSwidGFncyI6IiIsImxheW91dCI6InR3byIsImxhbmd1YWdlIjoiIiwiYnV0dG9uX2JhY2tncm91bmQiOiIjMDAwMDAwIiwiYnV0dG9uX2ZvbnRfY29sb3IiOiIjZmZmZmZmIiwiYnV0dG9uX2ZvbnRfZmFtaWx5IjoiSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiIsImJ1dHRvbl9mb250X3NpemUiOiIxNiIsInRpdGxlX2ZvbnRfd2VpZ2h0Ijoibm9ybWFsIiwiZm9udF93ZWlnaHQiOiJub3JtYWwiLCJzaG93X2ltYWdlIjoiMSIsInNob3dfZGF0ZSI6IjEiLCJibG9ja19pZCI6InBvc3RzIn0=" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #a3c62c;" bgcolor="#a3c62c" width="100%">
+<!-- TWO COLUMN SECTION -->
+
+
+    <!-- TWO COLUMNS -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                
+            <tbody><tr>
+                <td valign="top" style="padding: 10px;" class="mobile-wrapper">
+
+                    <!-- LEFT COLUMN -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                        <tbody><tr>
+                            <td style="padding: 20px 0 40px 0;">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                            <tbody><tr>
+                                            <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank">
+                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-6-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Maestros - Juan Ignacio Villar (Vily)</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                            6 diciembre, 2019                                        </td>
+                                    </tr>
+                                                                        <tr>
+                                        <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                                            <!-- RIGHT COLUMN -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                            <tbody><tr>
+                                <td style="padding: 20px 0 40px 0;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                    <tbody><tr>
+                                                <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
+                                                    <a href="https://rpj.es/jovenes-la-clase-hoy-es-en-la-calle-miguel-jaimes/" target="_blank">
+                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/25N-1-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Jóvenes, la clase hoy es en la calle - Miguel Jaimes</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
+                                                4 diciembre, 2019                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                            <td align="center" style="padding: 5px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; line-height: 1.4em;" class="tnpc-row-edit" data-type="text">Están aconteciendo movilizaciones sociales en Latinoamérica y en el mundo como un fenómeno global que tiende a extenderse con un protagonismo claro de los jóvenes...</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="center">
+                                            <br>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
+                                                <tbody><tr>
+                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                        <a href="https://rpj.es/jovenes-la-clase-hoy-es-en-la-calle-miguel-jaimes/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table> 
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                </td>
+            </tr>
+
+        
+    </tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block cz-color-4473924 cz-color-8421504 ui-sortable-handle" data-id="separator"><tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504"><td data-options="options[color]=%23dddddd&options[height]=1&" align="center" style="padding: 0; font-family: Helvetica, Arial, sans-serif;" class="edit-block cz-color-4473924"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiMwMDAwMDAiLCJjb2xvciI6IiNkZGRkZGQiLCJoZWlnaHQiOiI1IiwiYmxvY2tfaWQiOiJzZXBhcmF0b3IifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #000000;" bgcolor="#000000" width="100%">
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%">
+    <tbody><tr>
+        <td style="border-bottom: 5px solid #dddddd;"></td>
+    </tr>
+</tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjQ3MTkiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDE4XC8xMVwvZGVzY2FyZ2FybGFzLnBuZyJ9LCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC9yZXZpc3Rhc1wvIiwicGxhY2Vob2xkZXIiOiIiLCJpbWFnZV9hbHQiOiIiLCJibG9ja19pZCI6ImltYWdlIn0=" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://rpj.es/revistas/" target="_blank"><img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2018/11/descargarlas-600x0.png" border="0" alt="" style="max-width: 100%!important; height: auto!important; display: inline-block;"></a>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="image">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpbWFnZSI6eyJpZCI6IjQ3MTIiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDE4XC8xMVwvcmVjaWJpcmxhcy0yLnBuZyJ9LCJ1cmwiOiJodHRwczpcL1wvd3d3LmljY2VjaWJlcmF1bGEuZXNcL3JldmlzdGEtcGFzdG9yYWwtanV2ZW5pbFwvIiwicGxhY2Vob2xkZXIiOiIiLCJpbWFnZV9hbHQiOiIiLCJibG9ja19pZCI6ImltYWdlIn0=" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://www.icceciberaula.es/revista-pastoral-juvenil/" target="_blank"><img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2018/11/recibirlas-2-600x0.png" border="0" alt="" style="max-width: 100%!important; height: auto!important; display: inline-block;"></a>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%; display: table;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="text">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjE1LCJibG9ja19wYWRkaW5nX2xlZnQiOjE1LCJibG9ja19iYWNrZ3JvdW5kIjoiI2U3NDQyZSIsImh0bWwiOiJcdTAwM0NwIHN0eWxlPVwiZm9udC1zaXplOiAxNnB4OyBmb250LWZhbWlseTogQXJpYWw7IHRleHQtYWxpZ246IGNlbnRlcjtcIlx1MDAzRVx1MDAzQ3NwYW4gc3R5bGU9XCJjb2xvcjogI2ZmZmZmZjtcIlx1MDAzRU8gZW4gbnVlc3RyYSBwXHUwMGUxZ2luYSB3ZWIgZW4gbGEgcXVlIHBvZHJcdTAwZTFzIGVuY29udHJhciBtdWNob3MgY29udGVuaWRvcyBwYXJhIGpcdTAwZjN2ZW5lcyB5IGVkdWNhZG9yZXM6XHUwMDNDXC9zcGFuXHUwMDNFXHUwMDNDXC9wXHUwMDNFIiwiZm9udF9mYW1pbHkiOiJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiwiZm9udF9zaXplIjoxNiwiZm9udF9jb2xvciI6IiMwMDAwMDAiLCJibG9ja19pZCI6InRleHQifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 15px; padding-right: 15px; padding-bottom: 0px; background-color: #e7442e;" bgcolor="#e7442e" width="100%">
+<table width="100%" style="width: 100%!important" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+        <td width="100%" valign="top" align="left" class="text-td" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #000000; line-height: 1.5rem;">
+            <p style="font-size: 16px; font-family: Arial; text-align: center;"><span style="color: #ffffff;">O en nuestra página web en la que podrás encontrar muchos contenidos para jóvenes y educadores:</span></p>        </td>
+    </tr>
+</tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%; display: table;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="social">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MTUsImJsb2NrX3BhZGRpbmdfYm90dG9tIjoxNSwiYmxvY2tfcGFkZGluZ19yaWdodCI6MTUsImJsb2NrX3BhZGRpbmdfbGVmdCI6MTUsImJsb2NrX2JhY2tncm91bmQiOiIjZTc0NDJlIiwiYmxvY2tfaWQiOiJzb2NpYWwifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; background-color: #e7442e;" bgcolor="#e7442e" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+    <tbody><tr>
+        <td align="center">
+                            <span class="tnpc-row-edit" data-type="image">
+                    <a href="https://www.facebook.com/revistadepastoraljuvenil"><img src="https://rpj.es/wp-content/plugins/newsletter/emails/themes/default/images/facebook.png" alt="Facebook"></a>
+                </span>
+                                        <span class="tnpc-row-edit" data-type="image">
+                    <a href="https://twitter.com/rpjdigital"><img src="https://rpj.es/wp-content/plugins/newsletter/emails/themes/default/images/twitter.png" alt="Twitter"></a>
+                </span>
+                                                                                                                <span class="tnpc-row-edit" data-type="image">
+                    <a href="https://www.instagram.com/rpjdigital/"><img src="https://rpj.es/wp-content/plugins/newsletter/emails/themes/default/images/instagram.png" alt="Instagram"></a>
+                </span>
+                                            </td>
+    </tr>
+</tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table type="block" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row tnpc-row-block ui-sortable-handle" data-id="text">
+<tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjE1LCJibG9ja19wYWRkaW5nX2xlZnQiOjE1LCJibG9ja19iYWNrZ3JvdW5kIjoiI2U3NDQyZSIsImh0bWwiOiJcdTAwM0NwIHN0eWxlPVwiZm9udC1zaXplOiAxNnB4OyBmb250LWZhbWlseTogQXJpYWw7IHRleHQtYWxpZ246IGNlbnRlcjtcIlx1MDAzRVx1MDAzQ3NwYW4gc3R5bGU9XCJjb2xvcjogI2ZmZmZmZjtcIlx1MDAzRU8gZW4gbnVlc3RyYSBwXHUwMGUxZ2luYSB3ZWIgZW4gbGEgcXVlIHBvZHJcdTAwZTFzIGVuY29udHJhciBtdWNob3MgY29udGVuaWRvcyBwYXJhIGpcdTAwZjN2ZW5lcyB5IGVkdWNhZG9yZXM6XHUwMDNDXC9zcGFuXHUwMDNFXHUwMDNDXC9wXHUwMDNFIiwiZm9udF9mYW1pbHkiOiJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiwiZm9udF9zaXplIjoxNiwiZm9udF9jb2xvciI6IiMwMDAwMDAiLCJibG9ja19pZCI6InRleHQifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 15px; padding-right: 15px; padding-bottom: 0px; background-color: #e7442e;" bgcolor="#e7442e" width="100%">
+<table width="100%" style="width: 100%!important" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+        <td width="100%" valign="top" align="left" class="text-td" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #000000; line-height: 1.5rem;">
+            <p style="font-size: 16px; font-family: Arial; text-align: center;"><span style="color: #ffffff;">O en nuestra página web en la que podrás encontrar muchos contenidos para jóvenes y educadores:</span></p>        </td>
+    </tr>
+</tbody></table>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%; position: relative; opacity: 1; left: 0px; top: 0px;" class="tnpc-row tnpc-row-block cz-color-4473924 cz-color-8421504 ui-sortable-handle" data-id="cta"><tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504"><td data-options="options[text]=www.RPJ.es&options[url]=https%3A%2F%2Frpj.es&options[background]=%232e8dcc&options[color]=%23ffffff&options[font_family]=Helvetica%2C%20Arial%2C%20sans-serif&options[font_size]=16&options[font_weight]=Normal&options[font_color]=%23ffffff&options[width]=200&options[block_background]=%23ffffff&options[block_padding_top]=15&options[block_padding_bottom]=15&" align="center" style="padding: 0; font-family: Helvetica, Arial, sans-serif;" class="edit-block cz-color-4473924"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MCwiYmxvY2tfcGFkZGluZ19ib3R0b20iOjAsImJsb2NrX3BhZGRpbmdfcmlnaHQiOjAsImJsb2NrX3BhZGRpbmdfbGVmdCI6MCwiYmxvY2tfYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJ0ZXh0Ijoid3d3LlJQSi5lcyIsImJhY2tncm91bmQiOiIjMDAwMDAwIiwiZm9udF9jb2xvciI6IiNmZmZmZmYiLCJ1cmwiOiJodHRwczpcL1wvcnBqLmVzIiwiZm9udF9mYW1pbHkiOiJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiwiZm9udF9zaXplIjoiMTYiLCJmb250X3dlaWdodCI6Im5vcm1hbCIsIndpZHRoIjoiNjAwIiwiYmxvY2tfaWQiOiJjdGEifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
+<tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<a href="https://rpj.es" target="_blank" rel="noopener" class="cta-button" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #000000; line-height: normal; border-top: 15px solid #000000; border-bottom: 15px solid #000000; border-left: 25px solid #000000; border-right: 25px solid #000000; width: 600px; max-width: 100%; box-sizing: border-box; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;">www.RPJ.es</a>
+
+<div itemscope="" itemtype="http://schema.org/EmailMessage">
+    <div itemprop="potentialAction" itemscope="" itemtype="http://schema.org/ViewAction">
+        
+        
+    </div>
+    
+</div>
+</td></tr></tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row cz-color-4473924 cz-color-8421504 ui-sortable-handle" data-id="content-05-imageblock">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td align="center" style="padding: 0;" class="cz-color-4473924">
+<!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important" class="cz-color-4473924 cz-color-8421504">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td class="edit-block cz-color-4473924 cz-color-16777215" align="center" style="text-align: center; padding-top: 15px; padding-left: 0px; padding-right: 0px; padding-bottom: 15px; background-color: #ffffff;" bgcolor="#ffffff" width="100%">
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%" class="cz-color-4473924 cz-color-8421504">
+    <tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+        <td bgcolor="#ffffff" align="center" style="padding: 0;" class="cz-color-4473924 cz-color-16777215">
+            
+            <div class="tnpc-row-edit cz-color-4473924" data-type="image">
+                <a href="https://rpj.es/" target="_blank" class="cz-color-11170560">
+                    <img src="https://rpj.es/wp-content/uploads/2017/03/logo_rpj.png" border="0" alt="Insert alt text here" style="max-width: 100%!important; height: auto!important;display: block;" class="img-max cz-color-11170560" width="200">
+                </a>
+            </div>
+            
+        </td>
+    </tr>
+</tbody></table></td>
+</tr>
+</tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td>
+</tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="border-collapse: collapse; width: 100%;" class="tnpc-row cz-color-4473924 cz-color-8421504 ui-sortable-handle" data-id="footer-01-footerblock">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td align="center" style="padding: 0;" class="cz-color-4473924">
+<!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
+<table border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important" class="cz-color-4473924 cz-color-8421504">
+<tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+<td class="edit-block cz-color-4473924 cz-color-16777215" align="center" style="text-align: center; padding: 15px 0px; background-color: rgb(255, 255, 255);" bgcolor="#ffffff" width="100%">
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="cz-color-4473924 cz-color-8421504">
+    <tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+        <td align="center" style="padding: 20px 0px;" class="cz-color-4473924">
+
+            <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table cz-color-4473924 cz-color-8421504">
+                <tbody class="cz-color-4473924 cz-color-8421504"><tr class="cz-color-4473924 cz-color-8421504">
+                    <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;" class="cz-color-6710886">
+
+                        <a class="original-only tnpc-row-edit cz-color-6710886" data-type="link" style="color: #666666; text-decoration: none;" href="{profile_url}">Cambiar tu suscripción</a>
+
+                        <span class="original-only cz-color-4473924" style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">   |   </span>
+
+                        <a style="color: #666666; text-decoration: none;" href="{email_url}" class="tnpc-row-edit cz-color-6710886" data-type="link">Ver online</a>
+  
+                    </td>
+                </tr>
+            </tbody></table>
+            
+        </td>
+    </tr>
+</tbody></table>
+<!-- /FOOTER --></td>
+</tr>
+</tbody></table><!--[if mso]></td></tr></table><![endif]-->
+</td>
+</tr></tbody></table>
+</body>
+</html>
