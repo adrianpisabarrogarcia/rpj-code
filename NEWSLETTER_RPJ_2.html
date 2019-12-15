@@ -16,14 +16,13 @@ img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized imag
 /* RESET STYLES */
 body{margin:0; padding:0; height:100% !important; margin:0; padding:0; width:100% !important;}
 img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none; max-width: 100%!important}
-table{border-collapse:collapse !important;}
-    .tablasarticulos{
+table{}
+    .responsive-table{
         color: black !important;
         background-color: white !important;
         border-radius: 20px 20px 20px 20px !important;
         box-shadow: 6px 6px 6px 6px rgba(14, 14, 14,0.4) !important;
-        border: 5px solid black !important;
-
+        border: 5px solid black !important; margin-bottom: 10px !important;
     }
     .hvr-grow {
           display: inline-block;
@@ -66,7 +65,6 @@ table{border-collapse:collapse !important;}
         /*text-transform: uppercase !important;*/
         font-size: 12px !important;
         display: block !important;
-
     }
     a{
        text-decoration:none !important;
@@ -81,7 +79,6 @@ table{border-collapse:collapse !important;}
         padding-right: 15px !important; 
         padding-bottom: 7px !important; 
         padding-left:15px !important; 
-
     }
     .seguirleyendo > a{
         color:#ffffff; 
@@ -90,10 +87,6 @@ table{border-collapse:collapse !important;}
         text-decoration:none;
         text-transform: uppercase !important;
     }
-    
-
-
-    
 
 /* MOBILE STYLES */
 @media screen and (max-width: 525px) {
@@ -130,7 +123,6 @@ table{border-collapse:collapse !important;}
     /* FULL-WIDTH TABLES */
     table[class="responsive-table"]{
         width:100%!important;
-        
     }
 
     /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
@@ -289,19 +281,19 @@ table{border-collapse:collapse !important;}
                 <td valign="top" style="padding: 10px;" class="mobile-wrapper">
 
                     <!-- LEFT COLUMN -->
-<table cellpadding="0" cellspacing="0" width="47%" align="left" class="responsive-table tablasarticulos">
+                    <table cellpadding="0" cellspacing="0" width="47%" align="left" class="responsive-table">
                         <tbody><tr>
                             <td style="padding: 20px 0 40px 0;">
                                 <table cellpadding="0" cellspacing="0" border="0" width="100%">
                                                                             <tbody><tr>
                                             <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
-                                                <a  href="https://rpj.es/proyectar-en-el-espiritu-equipo-dialogos-pastoral-con-jovenes/" target="_blank">
+                                                <a href="https://rpj.es/proyectar-en-el-espiritu-equipo-dialogos-pastoral-con-jovenes/" target="_blank">
                                                     <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/2019/11/descarga.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                 </a>
                                             </td>
                                         </tr>
-                                    <tr>
-                                        <td class="titulos" data-type="title">Proyectar en el espíritu - Equipo Diálogos pastoral con jóvenes</td>
+                                                                        <tr>
+                                        <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Proyectar en el espíritu - Equipo Diálogos pastoral con jóvenes</td>
                                     </tr>
                                                                         <tr>
                                         <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -315,7 +307,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right: 15px; padding-bottom:30px; padding-left:15px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/proyectar-en-el-espiritu-equipo-dialogos-pastoral-con-jovenes/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -328,7 +320,8 @@ table{border-collapse:collapse !important;}
                     </tbody></table>
 
                                             <!-- RIGHT COLUMN -->
-                        <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table tablasarticulos">
+                        <table cellpadding="0" cellspacing="0" width="47%" align="right" class="responsive-table">
+
                             <tbody><tr>
                                 <td style="padding: 20px 0 40px 0;">
                                     <table cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -339,8 +332,8 @@ table{border-collapse:collapse !important;}
                                                     </a>
                                                 </td>
                                             </tr>
-                                        <tr>
-                                            <td class="titulos" data-type="title">Pastoral de preguntas - On creaciones</td>
+                                                                                <tr>
+                                            <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
                                         </tr>
                                                                                 <tr>
                                             <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -381,12 +374,12 @@ table{border-collapse:collapse !important;}
                                                                             <tbody><tr>
                                             <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                 <a href="https://rpj.es/2-semana-adviento/" target="_blank">
-                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/12/2-240x160-c.png" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/12/2-240x160-c.png" alt="Image" width="240" height="160" border="0" class="img-max">
                                                 </a>
                                             </td>
                                         </tr>
                                                                         <tr>
-                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">2ª Semana de Adviento</td>
+                                        <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">2ª Semana de Adviento</td>
                                     </tr>
                                                                         <tr>
                                         <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -400,7 +393,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/2-semana-adviento/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -420,12 +413,12 @@ table{border-collapse:collapse !important;}
                                                                                     <tbody><tr>
                                                 <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                     <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank">
-                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-6-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                        <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-6-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                     </a>
                                                 </td>
                                             </tr>
                                                                                 <tr>
-                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Maestros - Juan Ignacio Villar (Vily)</td>
+                                            <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Maestros - Juan Ignacio Villar (Vily)</td>
                                         </tr>
                                                                                 <tr>
                                             <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -439,7 +432,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -484,12 +477,12 @@ table{border-collapse:collapse !important;}
                                                                             <tbody><tr>
                                             <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                 <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank">
-                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                 </a>
                                             </td>
                                         </tr>
                                                                         <tr>
-                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
+                                        <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
                                     </tr>
                                                                         <tr>
                                         <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -503,7 +496,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -523,12 +516,12 @@ table{border-collapse:collapse !important;}
                                                                                     <tbody><tr>
                                                 <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                     <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank">
-                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/2JPG-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                        <img  class="hvr-grow"src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/2JPG-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                     </a>
                                                 </td>
                                             </tr>
                                                                                 <tr>
-                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">He venido para que tengan vida - Javier Carabano</td>
+                                            <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">He venido para que tengan vida - Javier Carabano</td>
                                         </tr>
                                                                                 <tr>
                                             <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -542,7 +535,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow"  align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -587,12 +580,12 @@ table{border-collapse:collapse !important;}
                                                                             <tbody><tr>
                                             <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                 <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank">
-                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-7-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                 </a>
                                             </td>
                                         </tr>
                                                                         <tr>
-                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
+                                        <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Pastoral de preguntas - On creaciones</td>
                                     </tr>
                                                                         <tr>
                                         <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -606,7 +599,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow"  align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/pastoral-de-preguntas-on-creaciones/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -626,12 +619,12 @@ table{border-collapse:collapse !important;}
                                                                                     <tbody><tr>
                                                 <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                     <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank">
-                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/2JPG-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                        <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/2JPG-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                     </a>
                                                 </td>
                                             </tr>
                                                                                 <tr>
-                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">He venido para que tengan vida - Javier Carabano</td>
+                                            <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">He venido para que tengan vida - Javier Carabano</td>
                                         </tr>
                                                                                 <tr>
                                             <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -645,7 +638,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow"  align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/he-venido-para-que-tengan-vida-javier-carabano/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -690,12 +683,12 @@ table{border-collapse:collapse !important;}
                                                                             <tbody><tr>
                                             <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                 <a href="https://rpj.es/a-que-me-siento-llamado-ignacio-alvarez-garcia/" target="_blank">
-                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/1-2-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/1-2-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                 </a>
                                             </td>
                                         </tr>
                                                                         <tr>
-                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">¿A qué me siento llamado? - Ignacio Álvarez García</td>
+                                        <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">¿A qué me siento llamado? - Ignacio Álvarez García</td>
                                     </tr>
                                                                         <tr>
                                         <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -709,7 +702,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow"  align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/a-que-me-siento-llamado-ignacio-alvarez-garcia/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -729,12 +722,12 @@ table{border-collapse:collapse !important;}
                                                                                     <tbody><tr>
                                                 <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                     <a href="https://rpj.es/saber-escuchar-inigo-garcia-blanco/" target="_blank">
-                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-3-240x160-c.png" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                        <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-3-240x160-c.png" alt="Image" width="240" height="160" border="0" class="img-max">
                                                     </a>
                                                 </td>
                                             </tr>
                                                                                 <tr>
-                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Saber escuchar - Iñigo García Blanco</td>
+                                            <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Saber escuchar - Iñigo García Blanco</td>
                                         </tr>
                                                                                 <tr>
                                             <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -748,7 +741,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/saber-escuchar-inigo-garcia-blanco/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -793,12 +786,12 @@ table{border-collapse:collapse !important;}
                                                                             <tbody><tr>
                                             <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                 <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank">
-                                                    <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-6-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                    <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/Captura-6-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                 </a>
                                             </td>
                                         </tr>
                                                                         <tr>
-                                        <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Maestros - Juan Ignacio Villar (Vily)</td>
+                                        <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Maestros - Juan Ignacio Villar (Vily)</td>
                                     </tr>
                                                                         <tr>
                                         <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -812,7 +805,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow"  align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/maestros-juan-ignacio-villar-vily/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -832,12 +825,12 @@ table{border-collapse:collapse !important;}
                                                                                     <tbody><tr>
                                                 <td align="center" valign="middle" class="tnpc-row-edit" data-type="image">
                                                     <a href="https://rpj.es/jovenes-la-clase-hoy-es-en-la-calle-miguel-jaimes/" target="_blank">
-                                                        <img src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/25N-1-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
+                                                        <img class="hvr-grow" src="https://rpj.es/wp-content/uploads/newsletter/thumbnails/2019/11/25N-1-240x160-c.jpg" alt="Image" width="240" height="160" border="0" class="img-max">
                                                     </a>
                                                 </td>
                                             </tr>
                                                                                 <tr>
-                                            <td align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Jóvenes, la clase hoy es en la calle - Miguel Jaimes</td>
+                                            <td class="titulos" align="center" style="padding: 15px 0 0 0; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 25px; line-height: 1.3em;" class="tnpc-row-edit" data-type="title">Jóvenes, la clase hoy es en la calle - Miguel Jaimes</td>
                                         </tr>
                                                                                 <tr>
                                             <td align="center" style="padding: 10px 0 0 15px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #aaaaaa;">
@@ -851,7 +844,7 @@ table{border-collapse:collapse !important;}
                                             <br>
                                             <table border="0" cellpadding="0" cellspacing="0" style="background-color: #000000; /*border:1px solid #353535;*/ border-radius:5px; align: right;" align="center">
                                                 <tbody><tr>
-                                                    <td align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
+                                                    <td class="seguirleyendo hvr-grow" align="center" valign="middle" style="color: #ffffff; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; letter-spacing:normal; line-height:normal; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px; text-align: right;">
                                                         <a href="https://rpj.es/jovenes-la-clase-hoy-es-en-la-calle-miguel-jaimes/" target="_blank" style="color:#ffffff; font-size:16px; font-weight:normal; text-decoration:none;">Seguir leyendo...</a>
                                                     </td>
                                                 </tr>
@@ -905,7 +898,7 @@ table{border-collapse:collapse !important;}
 <tbody><tr><td align="center" style="padding: 0;" class="edit-block"><!--[if mso]><table border="0" cellpadding="0" align="center" cellspacing="0" width="600"><tr><td width="600"><![endif]-->
 <table type="options" data-json="eyJibG9ja19wYWRkaW5nX3RvcCI6MTUsImJsb2NrX3BhZGRpbmdfYm90dG9tIjoxNSwiYmxvY2tfcGFkZGluZ19yaWdodCI6MTUsImJsb2NrX3BhZGRpbmdfbGVmdCI6MTUsImJsb2NrX2JhY2tncm91bmQiOiIjZTc0NDJlIiwiYmxvY2tfaWQiOiJzb2NpYWwifQ==" class="tnpc-block-content" border="0" cellpadding="0" align="center" cellspacing="0" width="100%" style="width: 100%!important; max-width: 600px!important">
 <tbody><tr><td align="center" style="text-align: center; width: 100%!important; padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; background-color: #e7442e;" bgcolor="#e7442e" width="100%">
-<table border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+<table border="0" cellspacing="0" cellpadding="0" align="center">
     <tbody><tr>
         <td align="center">
                             <span class="tnpc-row-edit" data-type="image">
@@ -1001,11 +994,7 @@ table{border-collapse:collapse !important;}
 </tr>
 </tbody></table><!--[if mso]></td></tr></table><![endif]-->
 </td>
-</tr></tbody></table>
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</tr></tbody></table>    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
      jQuery(document).ready(function($) {
         $('.responsive-table td[data-type="title"]').each(function(i){
@@ -1022,7 +1011,5 @@ table{border-collapse:collapse !important;}
         });
      });
     </script>
-
-
 </body>
 </html>
